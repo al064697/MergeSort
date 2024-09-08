@@ -49,7 +49,7 @@ button.pack(pady=20)
 button.bind("<Enter>", on_enter)
 button.bind("<Leave>", on_leave)
 
-footer_label = tk.Label(root, text="Desarrollado por MergeSort, Inc.", bg=bg_color, fg=text_color, font=("Helvetica Neue", 10))
+footer_label = tk.Label(root, text="Desarrollado por: Mi", bg=bg_color, fg=text_color, font=("Helvetica Neue", 10))
 footer_label.pack(side="bottom", pady=10)
 
 root.mainloop()
