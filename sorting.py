@@ -1,6 +1,3 @@
-import tkinter as tk
-from tkinter import messagebox
-
 def mergeSort(arr):
     if len(arr) == 1:
         return arr
